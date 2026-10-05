@@ -1,5 +1,5 @@
 # automatizacion-redes
-Proyecto de automatización de redes y documentación de prácticas.
+Proyecto de automatización de redes y documentación de prácticas
 
 ## Avance del proyecto integrador
 
