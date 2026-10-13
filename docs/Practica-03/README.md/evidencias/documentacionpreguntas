@@ -1,0 +1,33 @@
+
+PREGUNTAS DE ANÁLISIS
+
+1.¿Por qué es útil representar la información de los dispositivos mediante un programa?
+Porque permite organizar, almacenar y consultar la información de los dispositivos de forma más rápida, sencilla y estructurada. Además de que, facilita el manejo de grandes cantidades de datos y sirve como base para futuras tareas para la automatización de redes.
+
+2.¿Qué ventaja ofrece utilizar un diccionario para representar un dispositivo?
+La ventaja que le encontramos es que un diccionario permite agrupar todos los datos relacionados con un dispositivo en una sola estructura utilizando claves y valores. Esto facilita el acceso y la modificación de atributos específicos como nombre, dirección IP o estado.
+
+3.¿Qué ventaja ofrece utilizar una lista para representar varios dispositivos?
+Una lista nos permite a nosotros almacenar múltiples dispositivos en una misma estructura de datos. Ya que esto facilita recorrerlos, procesarlos y administrarlos de manera conjunta mediante ciclos y funciones.
+
+4.¿Qué tarea permite realizar el ciclo for?
+El ciclo for permite recorrer automáticamente todos los elementos de una lista y ejecutar una acción para cada uno de ellos, evitando así repetir código varias veces, ya que así ya solo esta en ciclo. 
+
+5.¿Para qué se utilizó la estructura if?
+La estructura if se utilizó para evaluar condiciones, por ejemplo, verificar si un dispositivo se encuentra activo o fuera de servicio y mostrar un mensaje diferente según su estado. 
+
+
+6.¿Qué ventaja tiene utilizar una función?
+Las funciones permiten reutilizar código, mejorar la organización del programa y facilitar su mantenimiento. Además, evitan escribir las mismas instrucciones varias veces. 
+
+7.¿Qué información de los dispositivos podría obtener automáticamente un programa en una etapa posterior?
+Podría obtener información como la dirección IP, el nombre del dispositivo, el estado operativo, el uso de CPU y memoria, las interfaces activas, la versión del sistema operativo, las rutas configuradas y estadísticas de tráfico de red. 
+
+8.	¿Qué diferencia existe entre representar información de un dispositivo y obtener esa información directamente desde el dispositivo?
+Representar información significa utilizar datos definidos manualmente dentro del programa. Obtener información directamente implica conectarse al dispositivo real mediante protocolos y herramientas de automatización para consultar datos actualizados en tiempo real. 
+
+9.¿Cómo podría evolucionar este programa para convertirse en una herramienta de automatización de redes?
+Podría evolucionar incorporando bibliotecas de automatización como Netmiko, Paramiko o NAPALM para conectarse a dispositivos reales, recopilar información automáticamente, realizar configuraciones remotas, generar reportes y monitorear el estado de la red. 
+10.¿Qué relación existe entre esta práctica, la Práctica 2 y las siguientes prácticas del proyecto integrador?
+La Práctica 2 permitió construir y configurar la infraestructura de red en GNS3. En esta Práctica 3, esa infraestructura se representa mediante estructuras de datos en Python. Las siguientes prácticas utilizarán esta base para obtener información real de los dispositivos y automatizar tareas de administración y monitoreo de la red. 
+
