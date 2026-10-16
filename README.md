@@ -42,6 +42,7 @@ La infraestructura desarrollada servirá como base para las siguientes práctica
 
 **Práctica 02: Completada.**
 
+
 # Práctica 3: Primer programa de Python para representar información de dispositivos
 
 ## 1. Propósito
