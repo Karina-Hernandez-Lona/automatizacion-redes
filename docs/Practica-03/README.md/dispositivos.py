@@ -1,0 +1,5 @@
+equipo = "R1"
+categoria = "Router"
+ip_dispositivo = "10.1.1.1"
+interfaz = "GigabitEthernet0/0"
+estatus = "Activo"
