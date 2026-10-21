@@ -1,23 +1,66 @@
 # Practica 4: Exploración de comunidades, documentación y recursos de colaboración.
-## 1. Propósito de la práctica.
-El propósito de esta práctica es investigar y analizar diferentes recursos de documentación, herramientas técnicas y comunidades de colaboración relacionadas con Python, GNS3 y la automatización de redes. Se busca aprender a identificar fuentes confiables, consultar información para resolver dudas de programación y conocer buenas prácticas para solicitar ayuda en comunidades. También se pretende organizar los conocimientos obtenidos en el repositorio de GitHub para facilitar su consulta y utilizarlos en las siguientes etapas del proyecto integrador.
 
-## 2. Relación con el proyecto integrador.
-Esta práctica da continuidad al proyecto porque permite identificar documentación y bibliotecas que pueden utilizarse para mejorar el programa y avanzar hacia la automatización de redes. Además, el análisis de comunidades como Stack Overflow y el uso de GitHub ayudarán al equipo a investigar errores, compartir soluciones y mantener organizada la información técnica necesaria para las próximas prácticas.
+## 1. Propósito de la práctica
+El propósito de esta práctica es investigar y analizar recursos técnicos y comunidades relacionados con Python, redes y automatización. Se busca conocer herramientas que ayuden a resolver problemas de programación, aprender sobre la administración de dispositivos de red e identificar fuentes confiables para consultar información. También se pretende desarrollar habilidades de investigación, colaboración y documentación mediante la organización de los resultados en el repositorio de GitHub del proyecto integrador.
 
-## 3. Recursos consultados: síntesis y enlaces.
-## 4. Evaluación de confiabilidad: tabla comparativa.
-## 5. Estrategia de solución del problema: situación hipotética de búsqueda.
-Problema planteado: el programa dispositivos.py muestra correctamente la información de R1 y R2, pero no identifica un dispositivo cuando se busca por su nombre.
-Problema identificado: El programa no encuentra un dispositivo al buscarlo por su nombre, aunque la información de R1 y R2 se muestra correctamente.
-Palabras clave para realizar la búsqueda: Python buscar dispositivo por nombre, diccionarios, listas, comparación de cadenas y búsqueda de elementos.
-Documentación que consultaríamos primero: Primero consultaríamos la documentación oficial de Python sobre listas, diccionarios y estructuras de control. Después revisaríamos Stack Overflow en español si fuera necesario.
-Información que revisaríamos en el código: La estructura donde se guardan los dispositivos, los nombres registrados, las condiciones de búsqueda y la forma en que se compara el nombre ingresado.
-Tipo de ejemplo o solución que buscaríamos: Un ejemplo de una función en Python que recorra una lista o consulte un diccionario para localizar un dispositivo por su nombre.
-Cómo comprobaríamos que la solución funciona: Probaríamos la búsqueda de R1 y R2, un nombre inexistente y un nombre con diferencias de mayúsculas o minúsculas, según el comportamiento esperado.
-Cómo documentaríamos la solución encontrada: Registraríamos el problema, la causa identificada, la solución aplicada, las pruebas realizadas y los enlaces consultados en el README de la práctica dentro de GitHub.
-## 6. Aprendizajes obtenidos.
-Durante esta práctica aprendimos que la documentación oficial y las comunidades de colaboración son recursos importantes para desarrollar programas y resolver problemas técnicos. Comprendimos que la documentación permite conocer el funcionamiento de las herramientas, mientras que las comunidades ayudan a encontrar experiencias y soluciones a problemas similares. También aprendimos a evaluar la confiabilidad de las fuentes considerando quién las mantiene, si están actualizadas, si contienen ejemplos verificables y si la información puede comprobarse con otras fuentes. Además, identificamos la utilidad de GNS3 para trabajar con topologías de red y de bibliotecas como Netmiko para investigar futuras posibilidades de automatización. Finalmente, comprendimos la importancia de documentar los hallazgos en GitHub, ya que esto permite mantener organizada la información, compartir conocimientos con el equipo y consultar soluciones en futuras prácticas. Estos aprendizajes servirán para mejorar el programa dispositivos.py y continuar desarrollando el proyecto integrador de automatización de redes.
+## 2. Relación con el proyecto integrador
+En la práctica anterior se desarrolló el programa dispositivos.py en Python para representar, organizar y manipular información básica de dispositivos de red, como routers y switches, pertenecientes a la topología simulada en GNS3 durante la Práctica 2.
+
+La presente práctica da continuidad a ese trabajo al investigar recursos que pueden ayudar a corregir errores, mejorar el código y aprender nuevas técnicas de automatización. Cisco DevNet y Network to Code ofrecen información relacionada con la automatización de redes; GitHub permite organizar el código y documentar los avances; Stack Overflow y The Python Community facilitan la consulta de dudas, y Red Hat Ansible Automation Platform permite conocer herramientas para automatizar tareas de infraestructura. Estos conocimientos servirán como apoyo para las siguientes etapas del proyecto.
+
+## 3. Recursos consultados: síntesis y enlaces
+Estos son los seis recursos seleccionados, su utilidad y la forma en que pueden apoyar el proyecto integrador.
+1. Cisco DevNet
+Enlace: https://developer.cisco.com/site/networking/
+Síntesis: Ofrece documentación, ejemplos y laboratorios para aprender sobre programación, APIs y automatización de dispositivos de red Cisco.
+
+2. Network to Code
+Enlace: https://docs.nautobot.com/
+Síntesis: Proporciona documentación sobre Nautobot, una plataforma para organizar información de dispositivos de red y facilitar la automatización de tareas.
+
+3. GitHub
+Enlace: https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories
+Síntesis: Explica cómo crear y administrar repositorios para almacenar código, documentar proyectos, controlar cambios y colaborar en equipo.
+
+4. Stack Overflow
+Enlace: https://es.stackoverflow.com/
+Síntesis: Es una comunidad donde los programadores comparten preguntas y respuestas para resolver errores y dudas relacionadas con Python y otros lenguajes.
+
+5. The Python Community
+Enlace: https://www.python.org/community/
+Síntesis: Reúne información sobre comunidades, grupos y espacios de colaboración donde los usuarios pueden aprender Python y compartir conocimientos.
+
+6. Red Hat Ansible Automation Platform
+Enlace: https://docs.ansible.com/platform.html
+Síntesis: Ofrece documentación sobre herramientas para automatizar tareas de infraestructura y administración de redes mediante configuraciones y procesos automatizados.
+
+## 4. Evaluación de confiabilidad: tabla comparativa
+Se seleccionaron Cisco DevNet, GitHub y Stack Overflow para evaluar sus características observables y su utilidad para el proyecto.
+| Criterio | Cisco DevNet | GitHub | Stack Overflow |
+|----------|--------------|--------|----------------|
+| ¿Quién publica o mantiene el recurso? | Cisco. | GitHub. | Comunidad de usuarios y colaboradores. |
+| ¿La información corresponde al tema investigado? | Sí, se enfoca en programación y automatización de redes. | Sí, explica la administración de repositorios y la colaboración. | Sí, contiene preguntas y respuestas sobre programación. |
+| ¿Incluye ejemplos o instrucciones verificables? | Sí, ofrece ejemplos, documentación y laboratorios. | Sí, proporciona guías e instrucciones. | Sí, incluye ejemplos de código y posibles soluciones. |
+| ¿Se identifica la versión o fecha de actualización cuando corresponde? | Se debe revisar la versión o fecha del recurso consultado. | La documentación se actualiza; se debe revisar la página específica. | Las publicaciones muestran fechas que ayudan a comprobar su actualidad. |
+| ¿Es posible comprobar la información con otra fuente? | Sí, mediante documentación técnica y pruebas. | Sí, mediante pruebas y otras fuentes oficiales. | Sí, comparando las respuestas con documentación oficial. |
+| ¿Qué utilidad tiene para el proyecto integrador? | Aprender técnicas de automatización de redes. | Organizar el código y documentar los avances del proyecto. | Encontrar soluciones a errores de Python y dudas de programación. |
+
+## 5. Estrategia de solución del problema: situación hipotética de búsqueda
+Problema: el programa dispositivos.py muestra correctamente la información de R1 y R2, pero no identifica un dispositivo cuando se busca por su nombre.
+
+- Problema identificado:	El programa no encuentra un dispositivo mediante su nombre, aunque muestra correctamente la información de R1 y R2.
+- Palabras clave para realizar la búsqueda:	Python buscar dispositivo por nombre, búsqueda en listas y diccionarios, comparación de cadenas y funciones de búsqueda.
+- Documentación o comunidad que consultaríamos primero:	Primero revisaríamos la documentación oficial de Python y después buscaríamos preguntas similares en Stack Overflow.
+- Información que revisaríamos en el código:	La estructura donde se almacenan los dispositivos, los nombres registrados, la función de búsqueda y las condiciones utilizadas para comparar los nombres.
+- Tipo de ejemplo o solución que buscaríamos:	Una función de Python que permita recorrer una lista o consultar un diccionario para encontrar un dispositivo por su nombre.
+- Cómo comprobaríamos que la solución funciona:	Probaríamos la búsqueda de R1 y R2, un nombre inexistente y nombres con mayúsculas o minúsculas diferentes para comprobar el comportamiento esperado.
+- Cómo documentaríamos la solución encontrada:	Registraríamos el problema, la causa, la solución, las pruebas realizadas y los enlaces consultados en el README de la práctica dentro de GitHub.
+
+## 6. Aprendizajes obtenidos
+Durante esta práctica aprendimos que existen diferentes recursos para investigar, desarrollar y mejorar programas relacionados con Python y las redes. Cisco DevNet ofrece materiales para aprender automatización de redes, mientras que Network to Code permite conocer herramientas para organizar información y automatizar procesos de infraestructura.
+También comprendimos que GitHub no solo sirve para guardar código, sino que permite organizar la documentación, conservar el historial de cambios y colaborar con otros integrantes. Por su parte, Stack Overflow y The Python Community ofrecen espacios para investigar dudas, comparar soluciones y aprender de las experiencias de otros programadores.
+Además, conocimos la utilidad de Red Hat Ansible Automation Platform para automatizar tareas de administración de infraestructura y redes. Aprendimos que es importante verificar la procedencia, actualidad, compatibilidad y utilidad de la información antes de aplicar una solución.
+Finalmente, estos recursos nos ayudarán a continuar desarrollando dispositivos.py, investigar errores de programación y prepararnos para futuras actividades de automatización. Mantener los hallazgos organizados en GitHub facilitará el trabajo colaborativo y permitirá construir una base de conocimiento útil para el proyecto integrador.
 
 ## 7. Conclusión individual:
 Miranda Rodríguez Castellanos: En esta práctica aprendí que la documentación oficial ofrece información confiable sobre el uso de Python y sus funciones, mientras que las comunidades permiten conocer experiencias y soluciones de otros programadores. Para saber si un recurso es confiable, es importante revisar quién lo publica, si está actualizado y si incluye ejemplos que se puedan comprobar. Una comunidad como Stack Overflow puede ayudarme a resolver errores de Python al encontrar preguntas similares a las que se presentan durante el desarrollo de un programa. También comprendí que es importante guardar las soluciones encontradas en GitHub para tenerlas organizadas y consultarlas cuando sea necesario. Esto facilita el trabajo en equipo y evita repetir las mismas búsquedas. En las siguientes prácticas utilizaré estos recursos para mejorar mis programas y resolver problemas relacionados con la automatización de redes. Considero que investigar antes de programar permite trabajar de una manera más ordenada y eficiente.
