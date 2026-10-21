@@ -149,14 +149,15 @@ Red Hat Ansible Automation Platform Enlace: https://docs.ansible.com/platform.ht
 
 ## 4. Evaluación de confiabilidad: tabla comparativa
 Se seleccionaron Cisco DevNet, GitHub y Stack Overflow para evaluar sus características observables y su utilidad para el proyecto.
+| Criterio | Cisco DevNet | GitHub | Stack Overflow |
+|---|---|---|---|
+| ¿Quién publica o mantiene el recurso? | Cisco. | GitHub. | Comunidad de usuarios y colaboradores. |
+| ¿La información corresponde al tema investigado? | Sí, se enfoca en programación y automatización de redes. | Sí, explica la administración de repositorios y la colaboración. | Sí, contiene preguntas y respuestas sobre programación. |
+| ¿Incluye ejemplos o instrucciones verificables? | Sí, ofrece ejemplos, documentación y laboratorios. | Sí, proporciona guías e instrucciones. | Sí, incluye ejemplos de código y posibles soluciones. |
+| ¿Se identifica la versión o fecha de actualización cuando corresponde? | Se debe revisar la versión o fecha del recurso consultado. | La documentación se actualiza; se debe revisar la página específica. | Las publicaciones muestran fechas que ayudan a comprobar su actualidad. |
+| ¿Es posible comprobar la información con otra fuente? | Sí, mediante documentación técnica y pruebas. | Sí, mediante pruebas y otras fuentes oficiales. | Sí, comparando las respuestas con documentación oficial. |
+| ¿Qué utilidad tiene para el proyecto integrador? | Aprender técnicas de automatización de redes. | Organizar el código y documentar los avances del proyecto. | Encontrar soluciones a errores de Python y dudas de programación. |
 
-Criterio	Cisco DevNet	GitHub	Stack Overflow
-¿Quién publica o mantiene el recurso?	Cisco.	GitHub.	Comunidad de usuarios y colaboradores.
-¿La información corresponde al tema investigado?	Sí, se enfoca en programación y automatización de redes.	Sí, explica la administración de repositorios y la colaboración.	Sí, contiene preguntas y respuestas sobre programación.
-¿Incluye ejemplos o instrucciones verificables?	Sí, ofrece ejemplos, documentación y laboratorios.	Sí, proporciona guías e instrucciones.	Sí, incluye ejemplos de código y posibles soluciones.
-¿Se identifica la versión o fecha de actualización cuando corresponde?	Se debe revisar la versión o fecha del recurso consultado.	La documentación se actualiza; se debe revisar la página específica.	Las publicaciones muestran fechas que ayudan a comprobar su actualidad.
-¿Es posible comprobar la información con otra fuente?	Sí, mediante documentación técnica y pruebas.	Sí, mediante pruebas y otras fuentes oficiales.	Sí, comparando las respuestas con documentación oficial.
-¿Qué utilidad tiene para el proyecto integrador?	Aprender técnicas de automatización de redes.	Organizar el código y documentar los avances del proyecto.	Encontrar soluciones a errores de Python y dudas de programación.
 ## 5. Estrategia de solución del problema: situación hipotética de búsqueda
 Problema: el programa dispositivos.py muestra correctamente la información de R1 y R2, pero no identifica un dispositivo cuando se busca por su nombre.
 
