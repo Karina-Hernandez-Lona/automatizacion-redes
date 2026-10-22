@@ -137,3 +137,19 @@ Durante esta práctica se reforzaron conceptos clave de programación en Python 
 | **Cómo comprobarían que la solución funciona**         | Ejecutaría el programa buscando R1 y R2, después probaría con un nombre inexistente para comprobar que el programa responda correctamente en ambos casos.                              |
 | **Cómo documentarían la solución encontrada**          | Registraría el problema, la causa identificada, los cambios realizados y las pruebas efectuadas, incluyendo capturas de pantalla de los resultados.                                    |
 
+Podrías adaptarlo para que refleje un trabajo más práctico y específico, manteniendo el formato original:
+
+**Práctica 4**
+
+Exploración de comunidades, documentación y recursos de colaboración
+
+**Estado:** Completada.
+
+Se investigaron y consultaron fuentes de documentación oficial y recursos de aprendizaje relacionados con Python, GNS3 y la automatización de redes.
+
+Se exploraron comunidades técnicas, foros y sitios especializados para identificar soluciones, ejemplos de configuración y buenas prácticas aplicables al desarrollo del proyecto.
+
+Se recopilaron enlaces, tutoriales y materiales de referencia que servirán como apoyo para la programación en Python y la implementación de escenarios de red en GNS3.
+
+**Próximo paso:**
+ Continuar con el desarrollo de programas en Python, aplicando los conocimientos adquiridos y utilizando la documentación y los recursos consultados para resolver problemas durante la implementación y pruebas del proyecto integrador.
