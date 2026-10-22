@@ -137,7 +137,6 @@ Durante esta práctica se reforzaron conceptos clave de programación en Python 
 | **Cómo comprobarían que la solución funciona**         | Ejecutaría el programa buscando R1 y R2, después probaría con un nombre inexistente para comprobar que el programa responda correctamente en ambos casos.                              |
 | **Cómo documentarían la solución encontrada**          | Registraría el problema, la causa identificada, los cambios realizados y las pruebas efectuadas, incluyendo capturas de pantalla de los resultados.                                    |
 
-Podrías adaptarlo para que refleje un trabajo más práctico y específico, manteniendo el formato original:
 
 **Práctica 4**
 
