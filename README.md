@@ -122,20 +122,18 @@ La Práctica 2 definió la topología física/simulada en GNS3. La Práctica 3 r
 
 ## 7. Conclusión
 Durante esta práctica se reforzaron conceptos clave de programación en Python como listas, diccionarios, estructuras condicionales y ciclos aplicados al entorno de redes. Aunque todavía no se realiza una conexión directa con los equipos de GNS3, este programa sienta las bases lógicas necesarias para que en las siguientes etapas del proyecto integrador se puedan automatizar tareas de consulta, monitoreo y configuración de dispositivos de red de manera eficiente.
+### Práctica 4
 
 
-# Practica 4: Exploración de comunidades, documentación y recursos de colaboración.
+## Parte 6. Análisis de un problema técnico hipotético
 
-### Practica 4 -Estado: Completada.
-
-## 1. Propósito de la práctica
-El propósito de esta práctica es investigar y analizar recursos técnicos y comunidades relacionados con Python, redes y automatización. Se busca conocer herramientas que ayuden a resolver problemas de programación, aprender sobre la administración de dispositivos de red e identificar fuentes confiables para consultar información. También se pretende desarrollar habilidades de investigación, colaboración y documentación mediante la organización de los resultados en el repositorio de GitHub del proyecto integrador.
-
-## 2. Relación con el proyecto integrador
-En la práctica anterior se desarrolló el programa dispositivos.py en Python para representar, organizar y manipular información básica de dispositivos de red, como routers y switches, pertenecientes a la topología simulada en GNS3 durante la Práctica 2.
-
-La presente práctica da continuidad a ese trabajo al investigar recursos que pueden ayudar a corregir errores, mejorar el código y aprender nuevas técnicas de automatización. Cisco DevNet y Network to Code ofrecen información relacionada con la automatización de redes; GitHub permite organizar el código y documentar los avances; Stack Overflow y The Python Community facilitan la consulta de dudas, y Red Hat Ansible Automation Platform permite conocer herramientas para automatizar tareas de infraestructura. Estos conocimientos servirán como apoyo para las siguientes etapas del proyecto.
-
-## 3. Aprendizajes obtenidos
-Durante esta práctica aprendimos que existen diferentes recursos para investigar, desarrollar y mejorar programas relacionados con Python y las redes. Cisco DevNet ofrece materiales para aprender automatización de redes, mientras que Network to Code permite conocer herramientas para organizar información y automatizar procesos de infraestructura. También comprendimos que GitHub no solo sirve para guardar código, sino que permite organizar la documentación, conservar el historial de cambios y colaborar con otros integrantes. Por su parte, Stack Overflow y The Python Community ofrecen espacios para investigar dudas, comparar soluciones y aprender de las experiencias de otros programadores. Además, conocimos la utilidad de Red Hat Ansible Automation Platform para automatizar tareas de administración de infraestructura y redes. Aprendimos que es importante verificar la procedencia, actualidad, compatibilidad y utilidad de la información antes de aplicar una solución. Finalmente, estos recursos nos ayudarán a continuar desarrollando dispositivos.py, investigar errores de programación y prepararnos para futuras actividades de automatización. Mantener los hallazgos organizados en GitHub facilitará el trabajo colaborativo y permitirá construir una base de conocimiento útil para el proyecto integrador.
+| Elemento                                               | Respuesta del equipo                                                                                                                                                                   |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Problema identificado**                              | El programa muestra los dispositivos disponibles, pero no encuentra un dispositivo cuando se busca por su nombre.                                                                      |
+| **Palabras clave para realizar la búsqueda**           | Python, buscar dispositivo por nombre, comparación de cadenas, diccionarios, listas y manejo de errores.                                                                               |
+| **Documentación o comunidad que consultarían primero** | La documentación oficial de Python: https://docs.python.org/3/                                                                                                                         |
+| **Información que revisarían en el código**            | Revisaría la función de búsqueda, las variables que almacenan los nombres, las condiciones `if` y la forma en que se comparan los nombres ingresados con los dispositivos disponibles. |
+| **Tipo de ejemplo o solución que buscarían**           | Un ejemplo de Python que recorra una lista o diccionario de dispositivos y compare el nombre solicitado con los nombres registrados.                                                   |
+| **Cómo comprobarían que la solución funciona**         | Ejecutaría el programa buscando R1 y R2, después probaría con un nombre inexistente para comprobar que el programa responda correctamente en ambos casos.                              |
+| **Cómo documentarían la solución encontrada**          | Registraría el problema, la causa identificada, los cambios realizados y las pruebas efectuadas, incluyendo capturas de pantalla de los resultados.                                    |
 
