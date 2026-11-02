@@ -155,3 +155,107 @@ Se recopilaron enlaces, tutoriales y materiales de referencia que servirán como
 
 
 ## Práctica 5
+### Mi primer script en Python para la automatización de redes
+**Estado:** Completada.
+ 
+### Objetivo
+Implementar el primer proceso de automatización de red utilizando Python y Telnet para conectarse a un router Cisco en GNS3, enviar configuraciones de manera remota y verificar los cambios realizados en el dispositivo.
+ 
+### Actividades realizadas
+ 
+#### 1. Preparación del entorno
+Se creó una nueva topología en GNS3 integrando un Network Automation Container (NAC), un router Cisco IOSv, un switch Cisco IOSvL2, un Ethernet Switch y una NAT Cloud.
+ 
+Posteriormente se configuró el NAC para obtener una dirección IP automáticamente mediante DHCP y se verificó la conectividad entre todos los dispositivos de la topología.
+ 
+#### 2. Configuración inicial del router
+Se configuró el router R1 asignando una dirección IP a la interfaz GigabitEthernet0/0 y se realizaron pruebas de conectividad mediante comandos ping para comprobar la comunicación con el NAC.
+ 
+#### 3. Habilitación del acceso Telnet
+Para permitir la automatización, se configuraron credenciales de acceso en R1 y se habilitaron las líneas VTY para aceptar conexiones Telnet.
+ 
+Asimismo, se configuró una contraseña para el modo privilegiado (enable) con el propósito de que el script pudiera realizar cambios administrativos en el dispositivo.
+ 
+#### 4. Desarrollo del script de automatización
+Se creó el archivo:
+ 
+```text
+src/automatizacion_telnet.py
+```
+ 
+Utilizando Python y la librería `telnetlib`.
+ 
+El script permite:
+ 
+- Conectarse automáticamente al router.
+- Solicitar credenciales.
+- Establecer una sesión Telnet.
+- Acceder al modo enable.
+- Entrar al modo de configuración global.
+- Ejecutar comandos remotos.
+- Cerrar la sesión automáticamente.
+ 
+#### 5. Configuraciones automatizadas aplicadas
+ 
+A través del script se ejecutaron las siguientes acciones:
+ 
+- Creación de la interfaz Loopback0.
+- Configuración de la IP 1.1.1.1/32.
+- Creación de la interfaz Loopback1.
+- Configuración de la IP 2.2.2.2/32.
+- Configuración básica del protocolo OSPF área 0.
+- Aplicación automática de configuraciones desde Python.
+ 
+#### 6. Verificación de resultados
+ 
+Para verificar el funcionamiento correcto de la automatización se utilizaron los siguientes comandos:
+ 
+```bash
+show ip interface brief
+show ip protocols
+debug telnet
+show line
+```
+ 
+Los resultados mostraron que las interfaces Loopback fueron creadas correctamente y que el proceso OSPF quedó configurado en el router.
+ 
+### Conceptos aplicados
+ 
+- Variables y estructuras de datos en Python.
+- Librerías de automatización.
+- Protocolo Telnet.
+- Configuración remota de dispositivos Cisco.
+- Direccionamiento IP.
+- Interfaces Loopback.
+- OSPF.
+- Automatización de infraestructura de red.
+- Control de versiones mediante GitHub.
+ 
+### Problemas y soluciones
+ 
+| Problema | Causa | Solución |
+|-----------|--------|----------|
+| El NAC no obtenía dirección IPv4 | DHCP deshabilitado | Se modificó la configuración de red para utilizar DHCP |
+| La conexión Telnet era rechazada | No existían credenciales de acceso | Se configuró usuario, contraseña y acceso VTY |
+| No se podía ingresar al modo enable | No existía contraseña enable | Se configuró una contraseña enable |
+| Problemas de conectividad | Configuración IP incompleta | Se verificó el direccionamiento y se realizaron pruebas de ping |
+ 
+### Relación con las prácticas anteriores
+ 
+Esta práctica representa la continuación del proyecto integrador desarrollado durante el curso.
+ 
+- **Práctica 1:** Preparación de la estación de automatización de redes.
+- **Práctica 2:** Construcción y configuración de la infraestructura de red en GNS3.
+- **Práctica 3:** Representación lógica de dispositivos mediante programas en Python.
+- **Práctica 4:** Investigación de documentación, comunidades técnicas y recursos de apoyo.
+- **Práctica 5:** Automatización básica de configuraciones en un router Cisco utilizando Python y Telnet.
+ 
+### Conclusión
+ 
+Durante esta práctica se realizó la primera interacción real entre un programa en Python y un dispositivo de red. Mediante la librería `telnetlib` fue posible establecer una sesión Telnet con un router Cisco y automatizar la ejecución de comandos de configuración.
+ 
+La actividad permitió comprender cómo la programación puede utilizarse para simplificar tareas repetitivas de administración de redes, reducir errores humanos y mejorar la eficiencia operativa. Además, se reforzaron conocimientos relacionados con conectividad, direccionamiento IP, protocolos de enrutamiento y automatización, estableciendo las bases necesarias para las siguientes fases del proyecto integrador.
+ 
+### Estado de la práctica
+ 
+**Práctica 05: Completada.**
