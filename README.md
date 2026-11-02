@@ -152,3 +152,6 @@ Se recopilaron enlaces, tutoriales y materiales de referencia que servirán como
 
 **Próximo paso:**
  Continuar con el desarrollo de programas en Python, aplicando los conocimientos adquiridos y utilizando la documentación y los recursos consultados para resolver problemas durante la implementación y pruebas del proyecto integrador.
+
+
+## Práctica 5
