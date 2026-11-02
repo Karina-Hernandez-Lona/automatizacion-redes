@@ -94,9 +94,14 @@ Esta práctica representa la continuación del proyecto integrador desarrollado 
 - **Práctica 4:** Investigación de documentación, comunidades técnicas y recursos de apoyo.
 - **Práctica 5:** Automatización básica de configuraciones en un router Cisco utilizando Python y Telnet.
  
-### Conclusión
- 
-Durante esta práctica se realizó la primera interacción real entre un programa en Python y un dispositivo de red. Mediante la librería `telnetlib` fue posible establecer una sesión Telnet con un router Cisco y automatizar la ejecución de comandos de configuración.
- 
-La actividad permitió comprender cómo la programación puede utilizarse para simplificar tareas repetitivas de administración de redes, reducir errores humanos y mejorar la eficiencia operativa. Además, se reforzaron conocimientos relacionados con conectividad, direccionamiento IP, protocolos de enrutamiento y automatización, estableciendo las bases necesarias para las siguientes fases del proyecto integrador.
- 
+### Conclusiones
+ Miranda Rodriguez Castellanos
+En esta práctica aprendí a utilizar Python para automatizar la configuración de un router Cisco mediante Telnet. Comprendí cómo establecer conexiones remotas, enviar comandos y verificar los cambios realizados, facilitando la administración de dispositivos de red.
+Karina Herndandez Lona
+La práctica me permitió comprender la importancia de la automatización de redes, ya que mediante un script de Python es posible realizar configuraciones de manera más rápida y eficiente. Además, comprobé que automatizar tareas reduce el tiempo necesario para administrar dispositivos.
+Monserratt Guerra Cantu
+Durante el desarrollo de la práctica reforcé mis conocimientos sobre direccionamiento IP, interfaces Loopback y el protocolo OSPF. También aprendí a aplicar configuraciones desde Python y verificar su funcionamiento mediante comandos de Cisco IOS.
+Nahomi Itzel Martinez Rivas
+La realización de esta actividad me ayudó a identificar y solucionar problemas de conectividad y acceso remoto. Comprendí que una configuración adecuada de DHCP, las credenciales y las líneas VTY es fundamental para establecer una conexión exitosa con los dispositivos de red.
+Fabiola Rodriguez Rivera
+Con esta práctica logré desarrollar mi primer script de automatización de redes utilizando Python y GNS3. Esta experiencia me permitió relacionar la programación con la administración de infraestructura de red, adquiriendo conocimientos importantes para futuras prácticas de automatización.
