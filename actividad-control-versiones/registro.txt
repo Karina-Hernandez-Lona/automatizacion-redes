@@ -1,1 +1,14 @@
+ACTIVIDAD: SISTEMA DE CONTROL DE VERSIONES
 
+Versión 1
+
+El control de versiones permite registrar los cambios realizados en los archivos de un proyecto de software.
+
+Equipo: Automatización de Redes 3IRI1V
+
+Integrantes:
+- Karina Hernández Lona
+- Monserratt Guerra Cantú
+- Miranda Rodríguez Castellanos
+- Fabiola Rodríguez Rivera
+- Nahomi Itzel Rivas Martínez
