@@ -12,3 +12,8 @@ Integrantes:
 - Miranda Rodríguez Castellanos
 - Fabiola Rodríguez Rivera
 - Nahomi Itzel Rivas Martínez
+
+Versión 2
+
+Git permite conservar un historial de cambios y recuperar
+versiones anteriores de los archivos.
